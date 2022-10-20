@@ -88,6 +88,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Menu",
+                    "type": "Button",
+                    "id": "2cb54618-e097-4799-9bea-3bb7d27500d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -198,6 +207,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "579d4aa5-fa47-44b4-a0bc-640e6a5e4ad3",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
