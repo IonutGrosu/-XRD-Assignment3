@@ -16,34 +16,46 @@
 extern void Instantiator_InstantiateCaller_m766FA9D7D140C15AE6325833330B7EEB7C677077 (void);
 // 0x00000002 System.Void Instantiator::.ctor()
 extern void Instantiator__ctor_m28E1805DD982964B874393BBC5B64F395E839BCB (void);
-// 0x00000003 System.Void Whiteboard::Start()
+// 0x00000003 System.Void LightScript::Start()
+extern void LightScript_Start_mF769F3E7BC7D999C1CA2BBF13DE06F4226089AFA (void);
+// 0x00000004 System.Void LightScript::ToggleLight()
+extern void LightScript_ToggleLight_mA40F7AE3C8EBA66BCACEAA662978ED3389E1783C (void);
+// 0x00000005 System.Void LightScript::Update()
+extern void LightScript_Update_m8D7FD7BD05927DD6A30A75E25281D04A46611B25 (void);
+// 0x00000006 System.Void LightScript::.ctor()
+extern void LightScript__ctor_m26794BDCD1B5367FC2D95E075D014E72C0D16C27 (void);
+// 0x00000007 System.Void Whiteboard::Start()
 extern void Whiteboard_Start_mD44FFF691D3FEF74B8758B20CA277C7D0B4CCAB1 (void);
-// 0x00000004 System.Void Whiteboard::.ctor()
+// 0x00000008 System.Void Whiteboard::.ctor()
 extern void Whiteboard__ctor_m89C79C924429B64CBCC86C44392AD4A90E264784 (void);
-// 0x00000005 System.Void WhiteboardMarker::Start()
+// 0x00000009 System.Void WhiteboardMarker::Start()
 extern void WhiteboardMarker_Start_mECA6B0EFF04719D93CC04C2631198B71AEAAC892 (void);
-// 0x00000006 System.Void WhiteboardMarker::Update()
+// 0x0000000A System.Void WhiteboardMarker::Update()
 extern void WhiteboardMarker_Update_m77B6D60C47A7D315489E00E7CA6945104D5399CB (void);
-// 0x00000007 System.Void WhiteboardMarker::Draw()
+// 0x0000000B System.Void WhiteboardMarker::Draw()
 extern void WhiteboardMarker_Draw_m00F03E94E4A5B4605BE714C63671782F504A6D30 (void);
-// 0x00000008 System.Void WhiteboardMarker::.ctor()
+// 0x0000000C System.Void WhiteboardMarker::.ctor()
 extern void WhiteboardMarker__ctor_m81D6CEB77096C29E45756F7B0C7A18DF7D58124C (void);
-// 0x00000009 System.Void WristUI::Start()
+// 0x0000000D System.Void WristUI::Start()
 extern void WristUI_Start_m24E061E9939E6D686D843C13DB897FEFECBB5196 (void);
-// 0x0000000A System.Void WristUI::OnDestroy()
+// 0x0000000E System.Void WristUI::OnDestroy()
 extern void WristUI_OnDestroy_mD2378F63085727FD3C828FF567D1FFC1E7FD29B8 (void);
-// 0x0000000B System.Void WristUI::ToggleMenu(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x0000000F System.Void WristUI::ToggleMenu(UnityEngine.InputSystem.InputAction/CallbackContext)
 extern void WristUI_ToggleMenu_m7E0B010689E5AF96033FE9271A4EEE441492A21D (void);
-// 0x0000000C System.Void WristUI::.ctor()
+// 0x00000010 System.Void WristUI::.ctor()
 extern void WristUI__ctor_m1B2CC16A772D211DCAE4311C3854306FA060D6E7 (void);
-// 0x0000000D System.Void Unity.Template.VR.XRPlatformControllerSetup::Start()
+// 0x00000011 System.Void Unity.Template.VR.XRPlatformControllerSetup::Start()
 extern void XRPlatformControllerSetup_Start_m1F22FCA29DFD83DC0E343C3F391D04A7C52085BF (void);
-// 0x0000000E System.Void Unity.Template.VR.XRPlatformControllerSetup::.ctor()
+// 0x00000012 System.Void Unity.Template.VR.XRPlatformControllerSetup::.ctor()
 extern void XRPlatformControllerSetup__ctor_mF9A3998AF90962CF8F35BAF2221558BDF5F6596E (void);
-static Il2CppMethodPointer s_methodPointers[14] = 
+static Il2CppMethodPointer s_methodPointers[18] = 
 {
 	Instantiator_InstantiateCaller_m766FA9D7D140C15AE6325833330B7EEB7C677077,
 	Instantiator__ctor_m28E1805DD982964B874393BBC5B64F395E839BCB,
+	LightScript_Start_mF769F3E7BC7D999C1CA2BBF13DE06F4226089AFA,
+	LightScript_ToggleLight_mA40F7AE3C8EBA66BCACEAA662978ED3389E1783C,
+	LightScript_Update_m8D7FD7BD05927DD6A30A75E25281D04A46611B25,
+	LightScript__ctor_m26794BDCD1B5367FC2D95E075D014E72C0D16C27,
 	Whiteboard_Start_mD44FFF691D3FEF74B8758B20CA277C7D0B4CCAB1,
 	Whiteboard__ctor_m89C79C924429B64CBCC86C44392AD4A90E264784,
 	WhiteboardMarker_Start_mECA6B0EFF04719D93CC04C2631198B71AEAAC892,
@@ -57,28 +69,32 @@ static Il2CppMethodPointer s_methodPointers[14] =
 	XRPlatformControllerSetup_Start_m1F22FCA29DFD83DC0E343C3F391D04A7C52085BF,
 	XRPlatformControllerSetup__ctor_mF9A3998AF90962CF8F35BAF2221558BDF5F6596E,
 };
-static const int32_t s_InvokerIndices[14] = 
+static const int32_t s_InvokerIndices[18] = 
 {
-	3780,
-	4800,
-	4800,
-	4800,
-	4800,
-	4800,
-	4800,
-	4800,
-	4800,
-	4800,
-	3893,
-	4800,
-	4800,
-	4800,
+	3883,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	4916,
+	3999,
+	4916,
+	4916,
+	4916,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	14,
+	18,
 	s_methodPointers,
 	0,
 	NULL,

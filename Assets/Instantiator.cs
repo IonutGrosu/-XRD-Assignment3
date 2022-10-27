@@ -7,6 +7,6 @@ public class Instantiator : MonoBehaviour
     [SerializeField] private Transform SpawnPoint;
     public void InstantiateCaller(GameObject prefab)
          {
-             Instantiate(prefab, SpawnPoint);
+             Instantiate(prefab, SpawnPoint.position, Quaternion.identity);
          }
 }
